@@ -13,27 +13,27 @@ public class Pattern_054 {
          * *
          *
          *
-         *
+         * change 'heightOfPyramid' variable from 1 to infinity
          * */
-        int heightOfPyramid = 5;
-        int b = 1;
+        int heightOfPyramidFromRightToLeft = 5;
+        int startPoint = 1;
 
-        for (int i = 0; i < heightOfPyramid; i++) {
-            for (int a = 0; a < b; a++) {
+        for (int i = 0; i < heightOfPyramidFromRightToLeft; i++) {
+            for (int a = 0; a < startPoint; a++) {
                 System.out.print("* ");
             }
 
-            b++;
+            startPoint++;
             System.out.println();
         }
 
-        b--;
-        for (int i = 0; i < heightOfPyramid - 1; i++) {
-            for (int a = b; a > 1; a--) {
+        startPoint--;
+        for (int i = 0; i < heightOfPyramidFromRightToLeft - 1; i++) {
+            for (int a = startPoint; a > 1; a--) {
                 System.out.print("* ");
             }
 
-            b--;
+            startPoint--;
             System.out.println();
         }
     }
