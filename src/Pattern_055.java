@@ -11,6 +11,10 @@ public class Pattern_055 {
         * 4 3
         * 4
         * */
+        int height = 3;
 
+        for (int i = 0; i < height; i++) {
+            System.out.print();
+        }
     }
 }
