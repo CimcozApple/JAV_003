@@ -59,7 +59,7 @@ public class FizzBuzz {
 
     public static void main(String[] args) {
         fizzBuzz1(getUserValue());
-        System.out.println("#################################################################################");
+        System.out.println("\n#################################################################################\n");
         fizzBuzz2(getUserValue());
     }
 }
