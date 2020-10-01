@@ -22,6 +22,17 @@ public class Task_003 {
     }
 
     public static void main(String[] args) {
+        /*
+        * Написать программу, которая должна определить какое максимально дорогое пиво (из списка ниже) можно купить
+        * на деньги имеющиеся в кармане (цифру придумать).
+        * Hoegaarden 65
+        * Leffe 55
+        * Stella Artua 45
+        * Chernigivske 30
+        * Obolon 7
+        * Пример, при походе в магазин у Вас в кармане имеется 40 грн.
+        * Значит, самое дорогое пиво, которое сегодня Вы сможете продегустировать - Chernigivske 30.
+        * */
         buyFireDrink(generateSomeMoneyInMyPocket());
     }
 }
